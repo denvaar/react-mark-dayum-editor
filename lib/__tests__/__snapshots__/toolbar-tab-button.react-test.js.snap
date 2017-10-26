@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly in active state 1`] = `
+<button
+  className="md-toolbar-tablinks active"
+  onClick={null}
+  type="button"
+>
+  Write
+</button>
+`;
+
+exports[`renders correctly in inactive state 1`] = `
+<button
+  className="md-toolbar-tablinks"
+  onClick={null}
+  type="button"
+>
+  Write
+</button>
+`;
