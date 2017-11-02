@@ -10,9 +10,9 @@ const ToolbarButton = ({ tooltip, callback, icon }) => {
       title={tooltip}
       className={baseCSS}
       onClick={callback}>
-    {/*<svg className={`icon icon-${icon}`}>
+      <svg className={`md-icon icon-${icon}`}>
         <use xlinkHref={`#icon-${icon}`}></use>
-      </svg>*/}
+      </svg>
     </button>
   );
 };

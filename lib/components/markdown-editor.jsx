@@ -4,7 +4,10 @@ import Toolbar from './toolbar';
 import TextArea from './text-area';
 import Preview from './preview';
 import DisplayIf from './display-if';
+import SvgDefinitions from './svg-definitions';
 
+
+import "../styles/styles.css";
 
 
 const toolbarButtons = [
@@ -62,6 +65,7 @@ export default class MarkdownEditor extends Component {
 
     return (
       <div className="md-container">
+        <SvgDefinitions />
         <Toolbar
           inEditMode={inEditMode}
           toolbarButtons={toolbarButtons}

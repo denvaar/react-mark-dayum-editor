@@ -11,7 +11,7 @@ const Toolbar = ({ handleToggleEditMode, inEditMode, toolbarButtons }) => {
       <Tabs
         inEditMode={inEditMode}
         handleClick={handleToggleEditMode} />
-      <DisplayIf condition={inEditMode}>
+      <DisplayIf condition={inEditMode} className="md-toolbar-buttons-container">
         {
           toolbarButtons.map(obj =>
             <ToolbarButton
@@ -19,6 +19,7 @@ const Toolbar = ({ handleToggleEditMode, inEditMode, toolbarButtons }) => {
               {...obj} />
           )
         }
+        <div className="md-toolbar-button-filler" />
       </DisplayIf>
     </nav>
   );

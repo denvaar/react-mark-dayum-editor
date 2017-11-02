@@ -1,0 +1,92 @@
+.md-container {
+  font-family: Helvetica Neue, sans-serif;
+}
+
+.md-preview-area {
+  padding: 1rem 0 0 0;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  margin-top: -3px;
+}
+
+.md-textarea {
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: -5px;
+  width: 100%;
+  height: 15rem;
+  border: 1px solid #ddd;
+  border-bottom: 1px dashed #ddd;
+  border-top: none;
+  border-radius: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  resize: vertical;
+}
+
+.md-toolbar {
+  font-size: 9pt;
+  margin-bottom: 3px;
+}
+
+.md-toolbar-button-filler {
+  flex: 0;
+}
+
+.md-toolbar-button {
+  border: none;
+  width: 30px;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 4px;
+  border-radius: 2px;
+}
+
+.md-toolbar-button:hover {
+  box-shadow: 0 1px 10px #ddd;
+}
+
+.md-toolbar-tablinks {
+  flex: 1;
+  outline: 0;
+  cursor: pointer;
+  background: #f9f9f9;
+  color: #777;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  padding: 5px 10px 5px 10px;
+}
+
+.md-toolbar-tablinks:focus {
+  border-top: 1px solid #2196f3;
+}
+
+.md-toolbar-tablinks.active {
+  border-bottom: none;
+  background: #fff;
+  color: #000;
+  /*box-shadow: 4px 0 8px -4px #ddd, -4px 0 8px -4px #ddd;*/
+}
+
+.md-toolbar-tabs {
+  display: flex;
+}
+
+.md-toolbar-buttons-container {
+  padding: 5px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.md-icon {
+  display: inline-block;
+  width: 1.3em;
+  height: 1.3em;
+  stroke-width: 0;
+  stroke: #545454;
+  fill: #545454;
+}
